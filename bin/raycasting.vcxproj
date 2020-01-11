@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5378BE45-BACF-3480-A47C-591CD6030D8C}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{018E2591-22D3-3AC4-ADD8-AF794526F17F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>raycasting</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev\RayCasting\raycasting-c\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raycasting.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raycasting</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev\RayCasting\raycasting-c\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raycasting.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raycasting</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev\RayCasting\raycasting-c\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raycasting.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raycasting</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Dev\RayCasting\raycasting-c\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raycasting.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raycasting</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,12 +116,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64;D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64;C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/RayCasting/raycasting-c/bin/Debug/raycasting.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/RayCasting/raycasting-c/bin/Debug/raycasting.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Dev/Raycasting/Raiycasting-c/bin/Debug/raycasting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/Raycasting/Raiycasting-c/bin/Debug/raycasting.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,12 +160,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64;D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64;C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/RayCasting/raycasting-c/bin/Release/raycasting.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/RayCasting/raycasting-c/bin/Release/raycasting.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Dev/Raycasting/Raiycasting-c/bin/Release/raycasting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/Raycasting/Raiycasting-c/bin/Release/raycasting.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,12 +204,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64;D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64;C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/RayCasting/raycasting-c/bin/MinSizeRel/raycasting.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/RayCasting/raycasting-c/bin/MinSizeRel/raycasting.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Dev/Raycasting/Raiycasting-c/bin/MinSizeRel/raycasting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/Raycasting/Raiycasting-c/bin/MinSizeRel/raycasting.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\RayCasting\raycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\Raycasting\Raiycasting-c\vendor\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,12 +247,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64;D:/Dev/RayCasting/raycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64;C:/Dev/Raycasting/Raiycasting-c/vendor/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/RayCasting/raycasting-c/bin/RelWithDebInfo/raycasting.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/RayCasting/raycasting-c/bin/RelWithDebInfo/raycasting.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Dev/Raycasting/Raiycasting-c/bin/RelWithDebInfo/raycasting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/Raycasting/Raiycasting-c/bin/RelWithDebInfo/raycasting.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,10 +260,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\RayCasting\raycasting-c\CMakelists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Dev/RayCasting/raycasting-c/CMakelists.txt</Message>
+    <CustomBuild Include="C:\Dev\Raycasting\Raiycasting-c\CMakelists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Dev/Raycasting/Raiycasting-c/CMakelists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\cmake-3.16.2-win64-x64\bin\cmake.exe" -SD:/Dev/RayCasting/raycasting-c -BD:/Dev/RayCasting/raycasting-c/bin --check-stamp-file D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Raycasting/Raiycasting-c -BC:/Dev/Raycasting/Raiycasting-c/bin --check-stamp-file C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,12 +271,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Dev/RayCasting/raycasting-c/CMakelists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Dev/Raycasting/Raiycasting-c/CMakelists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\cmake-3.16.2-win64-x64\bin\cmake.exe" -SD:/Dev/RayCasting/raycasting-c -BD:/Dev/RayCasting/raycasting-c/bin --check-stamp-file D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Raycasting/Raiycasting-c -BC:/Dev/Raycasting/Raiycasting-c/bin --check-stamp-file C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Dev/RayCasting/raycasting-c/CMakelists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Dev/Raycasting/Raiycasting-c/CMakelists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\cmake-3.16.2-win64-x64\bin\cmake.exe" -SD:/Dev/RayCasting/raycasting-c -BD:/Dev/RayCasting/raycasting-c/bin --check-stamp-file D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Raycasting/Raiycasting-c -BC:/Dev/Raycasting/Raiycasting-c/bin --check-stamp-file C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Dev/RayCasting/raycasting-c/CMakelists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Dev/Raycasting/Raiycasting-c/CMakelists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\cmake-3.16.2-win64-x64\bin\cmake.exe" -SD:/Dev/RayCasting/raycasting-c -BD:/Dev/RayCasting/raycasting-c/bin --check-stamp-file D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Raycasting/Raiycasting-c -BC:/Dev/Raycasting/Raiycasting-c/bin --check-stamp-file C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,18 +310,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\RayCasting\raycasting-c\src\constants.h" />
-    <ClCompile Include="D:\Dev\RayCasting\raycasting-c\src\main.c" />
+    <ClInclude Include="C:\Dev\Raycasting\Raiycasting-c\src\constants.h" />
+    <ClCompile Include="C:\Dev\Raycasting\Raiycasting-c\src\main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\RayCasting\raycasting-c\bin\ZERO_CHECK.vcxproj">
-      <Project>{16B3FDA0-EAB8-397D-BE45-28575D88A8DD}</Project>
+    <ProjectReference Include="C:\Dev\Raycasting\Raiycasting-c\bin\ZERO_CHECK.vcxproj">
+      <Project>{65E47667-6582-3340-9B2D-B44985DAE4E0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.18363 - AMD64
+The system is: Windows - 10.0.18362 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
 Build flags: 
@@ -6,11 +6,11 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 1/10/2020 7:10:55 PM.
-Project "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 1/10/2020 9:43:58 PM.
+Project "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.57
+Time Elapsed 00:00:02.00
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/3.16.2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/3.16.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -51,11 +51,11 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 1/10/2020 7:10:56 PM.
-Project "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 1/10/2020 9:44:00 PM.
+Project "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,74 +74,74 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\3.16.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.47
+Time Elapsed 00:00:01.32
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/3.16.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/3.16.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/CMakeTmp
+Change Dir: C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e79b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2f199.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.23.28106.4 para x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
   testCCompiler.c
-  (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e79b4.dir\Debug\\" /Fd"cmTC_e79b4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\testCCompiler.c"
-  cmTC_e79b4.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_e79b4.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f199.dir\Debug\\" /Fd"cmTC_2f199.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_2f199.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_2f199.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/CMakeTmp
+Change Dir: C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6600c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2277c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.23.28106.4 para x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
   CMakeCCompilerABI.c
-  (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6600c.dir\Debug\\" /Fd"cmTC_6600c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
-  cmTC_6600c.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_6600c.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2277c.dir\Debug\\" /Fd"cmTC_2277c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
+  cmTC_2277c.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_2277c.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/CMakeTmp
+Change Dir: C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6b24c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4ab83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.23.28106.4 para x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
   testCXXCompiler.cxx
-  (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6b24c.dir\Debug\\" /Fd"cmTC_6b24c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  cmTC_6b24c.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_6b24c.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ab83.dir\Debug\\" /Fd"cmTC_4ab83.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cmTC_4ab83.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_4ab83.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/CMakeTmp
+Change Dir: C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e4277.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d63a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.23.28106.4 para x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
   CMakeCXXCompilerABI.cpp
-  (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4277.dir\Debug\\" /Fd"cmTC_e4277.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\cmake-3.16.2-win64-x64\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_e4277.vcxproj -> D:\Dev\RayCasting\raycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_e4277.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d63a1.dir\Debug\\" /Fd"cmTC_d63a1.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_d63a1.vcxproj -> C:\Dev\Raycasting\Raiycasting-c\bin\CMakeFiles\CMakeTmp\Debug\cmTC_d63a1.exe
 
 
 

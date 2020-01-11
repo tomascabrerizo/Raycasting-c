@@ -3,7 +3,7 @@
 
 int main(int argc, char* args[])
 {
-	printf("Hello Raycasting!\n");
-
+	//TODO: Create a WINDOW
+	
 	return 0;
 }

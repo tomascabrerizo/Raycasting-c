@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/RayCasting/raycasting-c
+# Install script for directory: C:/Dev/Raycasting/Raiycasting-c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Dev/RayCasting/raycasting-c/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Dev/Raycasting/Raiycasting-c/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

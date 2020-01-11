@@ -23,3 +23,5 @@ target_link_libraries(raycasting
 	SDL2main
 	SDL2
 	)
+
+set_property(TARGET raycasting PROPERTY C_STANDARD 99)
