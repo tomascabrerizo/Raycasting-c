@@ -2,7 +2,6 @@
 #include <SDL.h>
 #include "constants.h"
 
-//Map
 const int map[MAP_NUM_ROWS][MAP_NUM_COLS] = 
 {
 	{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
