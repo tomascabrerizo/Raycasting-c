@@ -1,6 +1,6 @@
-^C:\DEV\RAYCASTING\RAIYCASTING-C\CMAKELISTS.TXT
+^D:\DEV\RAYCASTING\RAYCASTING-C\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Raycasting/Raiycasting-c -BC:/Dev/Raycasting/Raiycasting-c/bin --check-stamp-file C:/Dev/Raycasting/Raiycasting-c/bin/CMakeFiles/generate.stamp
+"C:\Program Files\cmake-3.16.2-win64-x64\bin\cmake.exe" -SD:/Dev/RayCasting/raycasting-c -BD:/Dev/RayCasting/raycasting-c/bin --check-stamp-file D:/Dev/RayCasting/raycasting-c/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
