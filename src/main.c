@@ -55,6 +55,7 @@ void setup()
 
 void processInput()
 {
+	
 	SDL_Event event;
 	SDL_PollEvent(&event);
 
