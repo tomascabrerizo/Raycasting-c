@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.6)
+
+project(Raycasting)
+
+set(VENDOR ${PROJECT_SOURCE_DIR}/vendor)
+
+file(GLOB files_SRC
+	"src/*.h"
+	"src/*.c"
+	)
+
+include_directories(
+	${VENDOR}/SDL2/include
+	)
+
+link_directories(
+	${VENDOR}/SDL2/lib/x64
+	)
+
+add_executable(raycasting ${files_SRC})
+
+target_link_libraries(raycasting
+	SDL2main
+	SDL2
+	)
